@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Shopping Center</title>
+</head>
+<body>
+    <div id="navbar"> <!--navbar-->
+        <a id="login" class="navbar-items" href="login.html">ورود</a>
+        <a id="register" class="navbar-items" href="register.html">ثبت نام</a>
+        <a id="homepage" href="index.html" class="navbar-items">صفحه اصلی</a>
+        <a id="contact_us" href="contact.html" class="navbar-items">تماس با ما </a>
+    </div>
+    <div id="main">
+        <div id="done">درخواست شما ثبت شد</div>
+        <form id="contact_us_form" id="register_form" action="/done.html">
+            <label for="title"  class="form-stuff label-adjust">:نام*</label>
+            <input name="title" class="form-stuff">
+            <label for="email"  class="form-stuff label-adjust">:نام خانوادگی*</label>
+            <input name="email" class="form-stuff">
+            <label for="username"  class="form-stuff label-adjust">:در اين قسمت بنويسيد</label>
+            <textarea name="text"  class="form-stuff" maxlength="250" required>
+
+            </textarea>
+            <button name="submit" class="form-stuff" type="submit" value="submit"  class="form-stuff">تایید</button>
+        </form>
+    </div> <!--main-->
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>register</title>
+</head>
+<body>
+    <div id="navbar"> <!--navbar-->
+        <a id="login" class="navbar-items" href="login.html">ورود</a>
+        <a id="register" class="navbar-items" href="register.html">ثبت نام</a>
+        <a id="homepage" href="index.html" class="navbar-items">صفحه اصلی</a>
+        <a id="contact_us" href="contact.html" class="navbar-items">تماس با ما </a>
+    </div>
+    <div id="main">
+        <div id="error">
+            <p>the errors are :</p>
+        </div>
+        <form id="register_form" id="register_form" action="/action_page.php">
+            <label for="first-name"  class="form-stuff label-adjust">:نام</label>
+            <input name="first_name" class="form-stuff">
+            <label for="last-name"  class="form-stuff label-adjust">:نام خانوادگی</label>
+            <input name="last_name" class="form-stuff">
+            <label for="username"  class="form-stuff label-adjust">:نام کاربری</label>
+            <input name="username" class="form-stuff">
+            <label for="email"  class="form-stuff label-adjust">:ایمیل</label>
+            <input name="email" class="form-stuff">
+            <label for="password1"  class="form-stuff label-adjust">:گذرواژه</label>
+            <input name="password1" class="form-stuff">
+            <label for="password2" class="form-stuff label-adjust" >:تکرار گذرواژه</label>
+            <input name="password2"  class="form-stuff">
+            <button name="submit" class="form-stuff" type="submit" value="submit">تایید</button>
+        </form>
+    </div> <!--main-->
+</body>
+</html>
